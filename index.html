@@ -2,12 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Odin Recipes</title>
+    <title>Delicious Recipes Made EZ</title>
   </head>
 
+  <style>
+
+
+    .recipes-title {
+      font-family: Helvetica;
+      font-size: 40px;
+    }
+
+    .recipe-button {
+      background-color: rgb(255, 182, 24);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 15px;
+      margin-left: 8px;
+      transition: opacity 0.15s;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .recipe-button:hover {
+      opacity: 0.8;
+    }
+    .recipe-button:active {
+      opacity: 0.5;
+    }
+  </style>
+
   <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna</a>
+    <h1 class="recipes-title">Delicious Recipes Made EZ</h1>
+    <p>Here are some great recipes you can make today:</p>
+    <button class="recipe-button"><a href="recipes/lasagna.html">Lasagna</a></button>
+    
   </body>
 
 
